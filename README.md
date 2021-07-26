@@ -1,9 +1,11 @@
-cd ~
-# Создаем виртуальное окружение
-virtualenv env
-# Активируем виртуальное окружение
-source env/scripts/activate
-# Клонируем проект
-git clone https://github.com/AlexanderVorobei/pyServer.git
-# Запускаем приложение
-python main.py
+# Simple Server Example
+## Requirements:
+- [Pyenv](https://github.com/pyenv/pyenv) is recommended
+## Setup
+### Use the make commands to run the application
+```
+$ make
+```
+```
+$ make run
+```
